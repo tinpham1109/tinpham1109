@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>WebsiteBanHang</title>
+</head>
+<body>
+    <div id="website">
+        <div id="top">
+            <div class="top_left">
+                <i class="fab fa-google" style="color: rgb(255, 0, 0);"></i>
+                <i class="top_left fas fa-envelope-open-text" style="color: rgb(10, 10, 238);"></i>
+                <i class="fab fa-facebook-square"style="color: #000"></i>
+            </div>
+            <div id="top_right">
+                <ul>
+                    <li><a href="#">Đăng nhập</a></li>
+                    <li>|</li>
+                    <li><a href="#">Đăng ký</a></li>
+                </ul>
+            </div>
+        </div>
+        <div id="header">
+            <!-- div thứ 1: hình logo -->
+             <div style="float:left; width:500px; height:100px; 
+             margin:15px 0 0 50px;"> 
+             <img src="logo.jpg"500" height="100"/>
+             </div>
+             <!-- div thứ 2: giỏ hàng và thông tin giỏ hàng -->
+            <div style="float:right; width:400px; height:67px; ">
+                <div class="shopcart">
+                    <img  class="shopcart" src="giỏhàng.png"/>
+                        <div class="info_cart">
+                            <p>0 sản phẩm</p>
+                            <p>0 đ</p>
+                        </div> 
+                </div>
+            </div>
+             <!-- div thứ 3: số điện thoại và tìm kiếm -->
+             <div style="float:right; width:400px; height:60px;">
+                <div class="header_phone">Support: 0703123456</div>
+                    <div id="header_search">
+                        <!-- Tạo form tìm kiếm-->
+                        <form id="search_form">
+                            <input type="text" id="txtsearch" placeholder="Search for here..."/>
+                                <button type="submit" id="btnsearch"></button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Phần menu -->
+            <div id="menu">
+                <ul>
+                    <li><img  src="home.jfif" /></li>
+                   <li style="border-left:1px dotted #999"><a href="#">Trang chủ</a></li>
+                     <li><a href="#">Giới thiệu</a></li>
+                     <li><a href="#">Thời Trang Nam</a></li>
+                     <li><a href="#">Thời Trang Nữ</a></li>
+                     <li><a href="#">Hướng dẫn mua hàng</a></li>
+                     <li><a href="#">Liên hệ</a></li>
+                </ul>
+            </div>
+            <!-- PHẦN MAIN-->
+            <div id="main">
+                <div id="main_left"> 
+                    <div id="menu_left">
+                        <ul>
+                            <li><a href="#">Quần áo nữ</a>
+                                <ul class="submenu">
+                                    <li><a href="#">Áo thun nữ</a>
+                                    <li><a href="#">Áo sơ mi nữ</a>
+                                    <li><a href="#">Áo khoát, vest nữ</a>
+                                    <li><a href="#">Váy đầm</a>
+                                    <li><a href="#">Quần jean</a>
+                                </ul>
+                            </li>
+                            <li><a href="#">Giày dép nữ</a>
+                                <ul class="submenu">
+                                    <li><a href="#">Giày cao gót</a>
+                                    <li><a href="#">Giày búp bê</a>
+                                    <li><a href="#">Giày sandal nữ</a>
+                                    <li><a href="#">Giày bata nữ</a>
+                                    <li><a href="#">Giày thể thao nữ</a>
+                                </ul>
+                            </li>
+                        </ul>
+
+                    </div>
+                </div>
+                <div id="main_right"> 
+                    <div id="products">
+                        <ul>
+                            <li>
+                                <div class="content">
+                                   <a href="">
+                                    <img src="LEVENTS® ESSENTIAL SLIPPER BLACK.jpg" alt="" width="210" height="280">
+                                    <p class="title"> Dép LEVENTS® BLACK</p>
+                                    <p class="price">420.000</p>
+                                   </a>
+
+                                </div>
+                            </li>
+                            <li>
+                                <div class="content">
+                               <a href="">
+                                <img src="LEVENTS® FINGER PRINT TEE GREY.jpg" width="210" height="280" />
+                                <p class="title">ÁO Thun Mặc Mát</p>
+                                <p class="price">400.000đ</p>
+                               </a>
+                               </div>
+                            </li>
+                            <li>
+                                <div class="content">
+                               <img src="LEVENTS® SPACE SHORTPANTS  BLACK.jpg" width="210" height="280" />
+                                <a href="">
+                                    <p class="title">Quần Ngắn Mặc Thoải Mái LEVENTS®</p>
+                                <p class="price">370.000đ</p>
+                                </a>
+                               </div>
+                            </li>
+                            <li>
+                                <div class="content">
+                               <a href="">
+                                <img src="LVS LOVEYOU300K SPECIAL TEE .jpg" width="210" height="280" />
+                                <p class="title">ÁO Thun Vãi Siêu Co Giản </p>
+                                <p class="price">520.000đ</p>
+                               </a>
+                               </div>
+                            </li>
+                            <li>
+                                <div class="content">
+                               <a href="">
+                                <img src="áo khoác.jpg" width="210" height="280" />
+                                <p class="title">ÁO Mùa Đông LEVENTS®</p>
+                                <p class="price">720.000đ</p>
+                               </a>
+                               </div>
+                            </li>
+                            <li>
+                                <div class="content">
+                               <a href="">
+                                <img src="Áo Cá Mập.jpg" width="210" height="280" />
+                                <p class="title">Áo Thun Có Hình Cá MẬp Xịn</p>
+                                <p class="price">520.000đ</p>
+                               </a>
+                               </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+    </div>
+</body>
+</html>
